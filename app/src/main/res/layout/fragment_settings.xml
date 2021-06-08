@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/view_soil_monitoring"
+        android:background="@color/green"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="Settings"
+        android:fontFamily="@font/marcellus_sc"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="370dp"
+        android:layout_height="600dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/view_settings"
+        android:background="@drawable/rounded_background_green"/>
+
+    <Button
+        android:id="@+id/size_water_storage"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="100dp"
+        android:text="Size Water Storage"
+        android:fontFamily="@font/marcellus_sc"
+        android:backgroundTint="@color/brown"/>
+
+    <Button
+        android:id="@+id/monitoring_history"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="160dp"
+        android:text="Monitoring History"
+        android:fontFamily="@font/marcellus_sc"
+        android:backgroundTint="@color/brown"/>
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="35dp"
+        android:fontFamily="@font/marcellus_sc"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="On/Off Automatically Sprinkle"/>
+
+    <Switch
+        android:id="@+id/switch_automatically_sprinkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="290dp"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"/>
+
+</RelativeLayout>

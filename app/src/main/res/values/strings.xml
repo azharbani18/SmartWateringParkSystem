@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Smart Watering Park System</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="creator">©A4Group™</string>
+    <string name="nav_soil_status">Soil Status</string>
+    <string name="nav_water_storage">Water Storage</string>
+    <string name="nav_setting">Settings</string>
+    <string name="soil_status"><b>Soil Status</b></string>
+    <string name="soil_moisture_status"><b>Soil Moisture Status</b></string>
+
+</resources>

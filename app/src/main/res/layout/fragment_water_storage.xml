@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/view_soil_monitoring"
+        android:background="@color/green"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="Water Storage"
+        android:fontFamily="@font/marcellus_sc"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view_design"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/bg_primary"/>
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="157dp"
+        android:src="@drawable/logo_tanaman" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="65dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="157dp"
+        android:src="@drawable/logo_tanaman"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="89dp"
+        android:layout_height="101dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/logo_tanaman"/>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="89dp"
+        android:layout_height="101dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/logo_tanaman"/>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="132dp"
+        android:layout_height="167dp"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="63dp"
+        android:src="@drawable/logo_tanaman"/>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/rounded_background_green"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="130dp"
+        android:fontFamily="@font/marcellus_sc"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="Water Storage"/>
+
+    <TextView
+        android:id="@+id/soil_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="215dp"
+        android:fontFamily="@font/lora"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:text="50%"/>
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="200dp"
+        android:src="@drawable/toren_air"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="80dp"/>
+</RelativeLayout>

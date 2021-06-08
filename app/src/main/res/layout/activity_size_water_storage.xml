@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/view_soil_monitoring"
+        android:background="@color/green"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="Size Water Storage"
+        android:fontFamily="@font/marcellus_sc"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:text="1. Set High And Base Area"
+        android:textColor="@color/black"
+        android:fontFamily="@font/marcellus_sc"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="370dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/rounded_background_yellow"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="40dp"
+        android:text="High"
+        android:textColor="@color/black"
+        android:fontFamily="@font/marcellus_sc"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="160dp"
+        android:background="@drawable/rounded_background_green"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="140dp"
+        android:editable="true"
+        android:fontFamily="@font/marcellus_sc"
+        android:text="100"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="40dp"
+        android:text="Base Area"
+        android:textColor="@color/black"
+        android:fontFamily="@font/marcellus_sc"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginLeft="160dp"
+        android:background="@drawable/rounded_background_green"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="200dp"
+        android:editable="true"
+        android:fontFamily="@font/marcellus_sc"
+        android:text="100"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="300dp"
+        android:text="cm2"
+        android:fontFamily="@font/marcellus_sc"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="300dp"
+        android:text="cm"
+        android:fontFamily="@font/marcellus_sc"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/button_add_size_water_storage"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="55dp"
+        android:text="Add To System"
+        android:fontFamily="@font/marcellus_sc"
+        android:textSize="20sp"
+        android:backgroundTint="@color/brown"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="30dp"
+        android:text="2. Water Storage Volume"
+        android:textColor="@color/black"
+        android:fontFamily="@font/marcellus_sc"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/rounded_background_yellow"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="40dp"
+        android:text="Volume"
+        android:textColor="@color/black"
+        android:fontFamily="@font/marcellus_sc"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginLeft="160dp"
+        android:background="@drawable/rounded_background_green"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="175dp"
+        android:text="100"
+        android:fontFamily="@font/marcellus_sc"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="300dp"
+        android:text="cm3"
+        android:fontFamily="@font/marcellus_sc"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+</RelativeLayout>

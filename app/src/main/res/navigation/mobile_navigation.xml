@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_soil_monitoring"
+        android:name="com.example.smartwateringpark.ui.home.HomeFragment"
+        android:label="Soil Monitoring"
+        tools:layout="@layout/fragment_soil_monitoring" />
+
+    <fragment
+        android:id="@+id/navigation_water_storage"
+        android:name="com.example.smartwateringpark.ui.dashboard.DashboardFragment"
+        android:label="Water Storage"
+        tools:layout="@layout/fragment_water_storage" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.smartwateringpark.ui.notifications.NotificationsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
